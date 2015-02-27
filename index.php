@@ -3,7 +3,7 @@
 
 
 
-if(isset($_GET['info']))
+if(!empty($_GET['info']))
 {
 	phpinfo();
 	die();
